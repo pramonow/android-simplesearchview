@@ -21,7 +21,7 @@
         android:padding="12dp"
         android:layout_toLeftOf="@+id/text_clear_button"
         android:layout_toRightOf="@+id/text_back_button"
-        android:hint="Search Promo"
+        android:hint="Search..."
         android:textColorHint="@color/grey"
         android:singleLine="true"
         android:background="@null"

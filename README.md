@@ -3,7 +3,7 @@
 Simple and friendly search view, easy to use and implement with back button and auto clear button
 Implemented fully with Kotlin
 
-![alt text](https://raw.githubusercontent.com/pramonow/just_images/master/SearchView.jpg)
+![alt text](https://raw.githubusercontent.com/pramonow/just_images/master/SearchPreview.PNG)
 
 	allprojects {
 		repositories {

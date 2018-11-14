@@ -1,8 +1,6 @@
 apply plugin: 'com.android.library'
 apply plugin: 'kotlin-android'
 
-ext.kotlin_version = '1.2.41'
-
 android {
     compileSdkVersion 28
 

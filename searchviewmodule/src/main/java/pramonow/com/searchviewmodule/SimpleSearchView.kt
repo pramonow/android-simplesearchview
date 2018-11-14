@@ -17,10 +17,10 @@ class SimpleSearchView: RelativeLayout {
     lateinit var clearButton: ImageButton
 
     constructor(context: Context, attr: AttributeSet) : super(context,attr) {
-        init(context,attr)
+        init(context)
     }
 
-    private fun init(context: Context, attr: AttributeSet)
+    private fun init(context: Context)
     {
         View.inflate(context, R.layout.layout_search_view,this)
 
@@ -64,5 +64,15 @@ class SimpleSearchView: RelativeLayout {
         })
 
         backButton.setOnClickListener{v -> buttonCallback.onBack()}
+    }
+
+    public fun setTextHint(text:String)
+    {
+        queryText.setHint(text)
+    }
+
+    public fun setFocused(focus:Boolean)
+    {
+        queryText.isFocusable = focus
     }
 }

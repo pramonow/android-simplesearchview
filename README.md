@@ -44,7 +44,8 @@ For the Android Activity
             }
         })
 
-As for now, search view only support two simple modification:
+As for now, search view only support several simple modification:
 
     fun setTextHint(text:String)
     fun setFocused(focus:Boolean)
+    fun setSearchTextWatcher(textWatcher: TextWatcher)

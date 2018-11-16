@@ -75,4 +75,9 @@ class SimpleSearchView: RelativeLayout {
     {
         queryText.isFocusable = focus
     }
+
+    public fun setSearchTextWatcher(textWatcher: TextWatcher)
+    {
+        queryText.addTextChangedListener(textWatcher)
+    }
 }

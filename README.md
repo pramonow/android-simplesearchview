@@ -11,8 +11,15 @@ Implemented fully with Kotlin
 			maven { url 'https://jitpack.io' }
 		}
 	}
-  
+	
 Dependency
+
+	dependencies {
+	        implementation 'com.github.pramonow:android-simplesearchview:1.0'
+	}
+
+  
+Or you can use SNAPSHOT to keep your module up to date
 
 	dependencies {
 	        implementation 'com.github.pramonow:android-simplesearchview:-SNAPSHOT'
